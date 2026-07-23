@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "static-binaries-utm",
+  "scripts": {
+    "download": "npm run download:adb",
+    "download:adb": "zx packages/adb/download.mjs",
+    "test": "npm run test:adb",
+    "test:adb": "node packages/adb/adb-static/test.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "licia": "^1.48.0",
+    "zx": "^8.8.0"
+  }
+}

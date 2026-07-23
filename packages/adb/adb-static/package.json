@@ -1,0 +1,38 @@
+{
+  "name": "adb-static",
+  "version": "0.1.0",
+  "description": "adb binary for macOS, Linux and Windows",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/adb/adb-static"
+  },
+  "keywords": [
+    "adb",
+    "android",
+    "static",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "optionalDependencies": {
+    "adb-static-darwin": "0.1.0",
+    "adb-static-linux": "0.1.0",
+    "adb-static-win32": "0.1.0"
+  }
+}

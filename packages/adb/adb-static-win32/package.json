@@ -1,0 +1,28 @@
+{
+  "name": "adb-static-win32",
+  "version": "0.1.0",
+  "description": "Windows adb binary for adb-static",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/adb/adb-static-win32"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32",
+    "arm64"
+  ],
+  "files": [
+    "adb.exe",
+    "AdbWinApi.dll",
+    "AdbWinUsbApi.dll"
+  ]
+}
