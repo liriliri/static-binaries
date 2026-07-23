@@ -1,0 +1,24 @@
+{
+  "name": "pdu-static-win32",
+  "version": "0.1.0",
+  "description": "Windows pdu binary for pdu-static",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/pdu/pdu-static-win32"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "pdu.exe"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "pdu-static",
+  "version": "0.1.0",
+  "description": "pdu (parallel-disk-usage) binary for macOS, Linux and Windows",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/pdu/pdu-static"
+  },
+  "keywords": [
+    "pdu",
+    "parallel-disk-usage",
+    "du",
+    "disk",
+    "static",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "optionalDependencies": {
+    "pdu-static-darwin": "0.1.0",
+    "pdu-static-linux": "0.1.0",
+    "pdu-static-win32": "0.1.0"
+  }
+}

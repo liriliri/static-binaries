@@ -9,6 +9,7 @@ Each tool has its own directory under `packages/`, with a main package plus opti
 | Package | Description |
 | --- | --- |
 | [`adb-static`](packages/adb/adb-static) | Android `adb` |
+| [`pdu-static`](packages/pdu/pdu-static) | `pdu` (parallel-disk-usage) |
 
 ## Layout
 

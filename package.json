@@ -2,11 +2,14 @@
   "private": true,
   "name": "static-binaries-utm",
   "scripts": {
-    "download": "npm run download:adb",
+    "download": "npm run download:adb && npm run download:pdu",
     "download:adb": "zx packages/adb/download.mjs",
-    "test": "npm run test:adb",
-    "test:adb": "node packages/adb/adb-static/test.js"
+    "download:pdu": "zx packages/pdu/download.mjs",
+    "test": "npm run test:adb && npm run test:pdu",
+    "test:adb": "node packages/adb/adb-static/test.js",
+    "test:pdu": "node packages/pdu/pdu-static/test.js"
   },
+
   "engines": {
     "node": ">=16"
   },
