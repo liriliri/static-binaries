@@ -1,6 +1,6 @@
 {
   "name": "pdu-static",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pdu (parallel-disk-usage) binary for macOS, Linux and Windows",
   "main": "index.js",
   "types": "index.d.ts",
@@ -33,7 +33,8 @@
     "node": ">=16"
   },
   "optionalDependencies": {
-    "pdu-static-darwin": "0.1.0",
+    "pdu-static-darwin": "0.1.1",
+    "pdu-static-darwin-arm64": "0.1.1",
     "pdu-static-linux": "0.1.0",
     "pdu-static-win32": "0.1.0"
   }

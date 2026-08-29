@@ -5,7 +5,10 @@ const os = require('os')
 const path = require('path')
 
 const PLATFORM_PACKAGES = {
-  darwin: 'pdu-static-darwin',
+  darwin: {
+    x64: 'pdu-static-darwin',
+    arm64: 'pdu-static-darwin-arm64',
+  },
   linux: 'pdu-static-linux',
   win32: 'pdu-static-win32',
 }
@@ -18,7 +21,12 @@ const BINARY_NAME = {
 
 function resolveBinaryPath() {
   const platform = process.env.npm_config_platform || os.platform()
-  const pkg = PLATFORM_PACKAGES[platform]
+  const arch = process.env.npm_config_arch || process.arch
+  const platformPackages = PLATFORM_PACKAGES[platform]
+  const pkg =
+    typeof platformPackages === 'string'
+      ? platformPackages
+      : platformPackages?.[arch]
   const binary = BINARY_NAME[platform]
 
   if (!pkg || !binary) {

@@ -25,6 +25,7 @@ spawnSync(pduPath, ['.'], { stdio: 'inherit' })
 | --- | --- |
 | `pdu-static` | Main package (resolves binary path) |
 | `pdu-static-darwin` | macOS (`x64`) |
+| `pdu-static-darwin-arm64` | macOS (`arm64`) |
 | `pdu-static-linux` | Linux (`x64`) |
 | `pdu-static-win32` | Windows (`x64`) |
 
