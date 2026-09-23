@@ -1,0 +1,43 @@
+{
+  "name": "audiocpp-static",
+  "version": "0.1.0",
+  "description": "audiocpp_server binary for macOS, Linux and Windows",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "model-specs.js",
+    "model-specs.d.ts",
+    "model_specs"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/audiocpp/audiocpp-static"
+  },
+  "keywords": [
+    "audiocpp",
+    "audio.cpp",
+    "audiocpp_server",
+    "tts",
+    "static",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "optionalDependencies": {
+    "audiocpp-static-darwin-arm64": "0.1.0",
+    "audiocpp-static-linux": "0.1.0",
+    "audiocpp-static-win32": "0.1.0"
+  }
+}

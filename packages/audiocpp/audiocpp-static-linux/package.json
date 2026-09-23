@@ -1,0 +1,26 @@
+{
+  "name": "audiocpp-static-linux",
+  "version": "0.1.0",
+  "description": "Linux x64 audiocpp_server binary for audiocpp-static",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/audiocpp/audiocpp-static-linux"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "audiocpp_server",
+    "*.so",
+    "*.so.*"
+  ]
+}

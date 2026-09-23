@@ -10,6 +10,7 @@ Each tool has its own directory under `packages/`, with a main package plus opti
 | --- | --- |
 | [`adb-static`](packages/adb/adb-static) | Android `adb` |
 | [`pdu-static`](packages/pdu/pdu-static) | `pdu` (parallel-disk-usage) |
+| [`audiocpp-static`](packages/audiocpp/audiocpp-static) | `audiocpp_server` (audio.cpp) |
 
 ## Layout
 

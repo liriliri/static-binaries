@@ -1,0 +1,8 @@
+# Runtime artifacts from npm run download:audiocpp (not committed — too large)
+audiocpp-static/model_specs/
+audiocpp-static-*/audiocpp_server
+audiocpp-static-*/audiocpp_server.exe
+audiocpp-static-*/*.dll
+audiocpp-static-*/*.so
+audiocpp-static-*/*.so.*
+.tmp/
