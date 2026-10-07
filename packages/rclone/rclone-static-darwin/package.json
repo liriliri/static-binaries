@@ -1,0 +1,24 @@
+{
+  "name": "rclone-static-darwin",
+  "version": "0.1.0",
+  "description": "macOS x64 rclone binary for rclone-static",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/rclone/rclone-static-darwin"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "rclone"
+  ]
+}

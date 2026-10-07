@@ -1,0 +1,4 @@
+# Runtime artifacts from npm run download:rclone (not committed — too large)
+rclone-static-*/rclone
+rclone-static-*/rclone.exe
+.tmp/
