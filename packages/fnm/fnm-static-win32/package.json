@@ -1,0 +1,24 @@
+{
+  "name": "fnm-static-win32",
+  "version": "0.1.0",
+  "description": "Windows x64 fnm binary for fnm-static",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/fnm/fnm-static-win32"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "fnm.exe"
+  ]
+}

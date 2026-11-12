@@ -2,16 +2,18 @@
   "private": true,
   "name": "static-binaries-utm",
   "scripts": {
-    "download": "npm run download:adb && npm run download:pdu && npm run download:audiocpp && npm run download:rclone",
+    "download": "npm run download:adb && npm run download:pdu && npm run download:audiocpp && npm run download:rclone && npm run download:fnm",
     "download:adb": "zx packages/adb/download.mjs",
     "download:pdu": "zx packages/pdu/download.mjs",
     "download:audiocpp": "zx packages/audiocpp/download.mjs",
     "download:rclone": "zx packages/rclone/download.mjs",
-    "test": "npm run test:adb && npm run test:pdu && npm run test:audiocpp && npm run test:rclone",
+    "download:fnm": "zx packages/fnm/download.mjs",
+    "test": "npm run test:adb && npm run test:pdu && npm run test:audiocpp && npm run test:rclone && npm run test:fnm",
     "test:adb": "node packages/adb/adb-static/test.js",
     "test:pdu": "node packages/pdu/pdu-static/test.js",
     "test:audiocpp": "node packages/audiocpp/audiocpp-static/test.js",
-    "test:rclone": "node packages/rclone/rclone-static/test.js"
+    "test:rclone": "node packages/rclone/rclone-static/test.js",
+    "test:fnm": "node packages/fnm/fnm-static/test.js"
   },
 
   "engines": {

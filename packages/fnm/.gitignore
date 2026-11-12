@@ -1,0 +1,4 @@
+# Runtime artifacts from npm run download:fnm (not committed — too large)
+fnm-static-*/fnm
+fnm-static-*/fnm.exe
+.tmp/

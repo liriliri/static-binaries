@@ -1,0 +1,40 @@
+{
+  "name": "fnm-static",
+  "version": "0.1.0",
+  "description": "fnm (Fast Node Manager) binary for macOS, Linux and Windows",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/fnm/fnm-static"
+  },
+  "keywords": [
+    "fnm",
+    "node",
+    "version",
+    "manager",
+    "static",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "optionalDependencies": {
+    "fnm-static-darwin": "0.1.0",
+    "fnm-static-linux": "0.1.0",
+    "fnm-static-win32": "0.1.0"
+  }
+}

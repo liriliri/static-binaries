@@ -1,0 +1,25 @@
+{
+  "name": "fnm-static-darwin",
+  "version": "0.1.0",
+  "description": "macOS fnm binary for fnm-static",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/static-binaries.git",
+    "directory": "packages/fnm/fnm-static-darwin"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "files": [
+    "fnm"
+  ]
+}

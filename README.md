@@ -12,6 +12,7 @@ Each tool has its own directory under `packages/`, with a main package plus opti
 | [`pdu-static`](packages/pdu/pdu-static) | `pdu` (parallel-disk-usage) |
 | [`audiocpp-static`](packages/audiocpp/audiocpp-static) | `audiocpp_server` (audio.cpp) |
 | [`rclone-static`](packages/rclone/rclone-static) | `rclone` |
+| [`fnm-static`](packages/fnm/fnm-static) | `fnm` (Fast Node Manager) |
 
 ## Layout
 
